@@ -1,0 +1,104 @@
+body {
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.page-header {
+    background-color: #FF4500;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 30px 30px 30px 50px;
+}
+.heading .container{
+ background-color: #FFFFFF;
+    display: flex;
+    box-shadow: 2px 2px 2px white;
+    align: center;
+}
+
+.container nav ul{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color : #FF4500;
+}
+.container nav ul li a{
+    text-decoration: none;
+}
+.container nav li {
+list-style-type: none;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+}
+h2{
+background-color: white;
+}
+.save {
+    float: right;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post1{
+ display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  white-space: initial;
+}
+
+.post1 h2 a,
+.post1 h2 a:visited {
+    color: white;
+    background-color: #FF4500;
+}
+
+.post1 img{
+width : 100px;
+height : 100px;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #C25100;
+    background: none;
+    border-color: #FF4500;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #FF4500;
+}
+
+
+
